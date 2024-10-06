@@ -3,6 +3,13 @@
 # This script provides a simple shopping list manager using Python lists.
 # Users can add items, remove items, view the list, or exit the program.
 
+def display_menu():
+    print("\nShopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
+
 def main():
     shopping_list = []
     
@@ -43,14 +50,6 @@ def main():
             # Handle invalid input
             print("Invalid choice. Please try again.")
     
-def display_menu():
-    print("\nShopping List Manager")
-    print("1. Add Item")
-    print("2. Remove Item")
-    print("3. View List")
-    print("4. Exit")
-
-
 
 if __name__ == "__main__":
     main()
