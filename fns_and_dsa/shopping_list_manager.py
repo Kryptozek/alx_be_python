@@ -4,7 +4,7 @@
 # Users can add items, remove items, view the list, or exit the program.
 
 def display_menu():
-    print(f"\nShopping List Manager")
+    print(f"Shopping List Manager")
     print(f"1. Add Item")
     print(f"2. Remove Item")
     print(f"3. View List")
